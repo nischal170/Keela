@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-05T05:55:43.580Z",
+    "end": "2023-05-05T05:56:30.059Z",
+    "duration": 46479,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "24c93151-7cb7-4145-8f6a-240bad7b83e8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login\\login.cy.js",
+      "file": "cypress\\e2e\\login\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6e965552-34f9-4341-a702-107bf8d1a601",
+          "title": "Login Module",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "validLogin",
+              "fullTitle": "Login Module validLogin",
+              "timedOut": null,
+              "duration": 26425,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.Login();",
+              "err": {},
+              "uuid": "8e3aa237-2125-484a-8a3c-efb3bc8e341b",
+              "parentUUID": "6e965552-34f9-4341-a702-107bf8d1a601",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Invalid login with valid username and invalid password ",
+              "fullTitle": "Login Module Invalid login with valid username and invalid password ",
+              "timedOut": null,
+              "duration": 11850,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _loginObj.invalid_login)(Cypress.env('dev').Cred.email, \"admin@123\");",
+              "err": {},
+              "uuid": "5e6dbdc1-7747-44d1-869e-0a70a9263542",
+              "parentUUID": "6e965552-34f9-4341-a702-107bf8d1a601",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Invalid login with invalid username and valid password ",
+              "fullTitle": "Login Module Invalid login with invalid username and valid password ",
+              "timedOut": null,
+              "duration": 6229,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _loginObj.invalid_login)(\"admin123@gmail.com\", Cypress.env('dev').Cred.password);",
+              "err": {},
+              "uuid": "29c785a8-28b1-4793-866a-f5c37f1b7e68",
+              "parentUUID": "6e965552-34f9-4341-a702-107bf8d1a601",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8e3aa237-2125-484a-8a3c-efb3bc8e341b",
+            "5e6dbdc1-7747-44d1-869e-0a70a9263542",
+            "29c785a8-28b1-4793-866a-f5c37f1b7e68"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 44504,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

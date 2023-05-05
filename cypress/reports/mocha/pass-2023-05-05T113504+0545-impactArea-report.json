@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-05T05:46:26.457Z",
+    "end": "2023-05-05T05:50:04.800Z",
+    "duration": 218343,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1136d6ac-dc8f-4b3e-b181-ca33347a9403",
+      "title": "",
+      "fullFile": "cypress\\e2e\\impactArea\\impactArea.cy.js",
+      "file": "cypress\\e2e\\impactArea\\impactArea.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8138aefb-b2bf-4cff-beb6-36c9c8a3a2df",
+          "title": "Impact Areas  Module",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify if empty form cannot be submitted",
+              "fullTitle": "Impact Areas  Module verify if empty form cannot be submitted",
+              "timedOut": null,
+              "duration": 31935,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "impactAreas_module.submitEmpty_impactArea();",
+              "err": {},
+              "uuid": "dc05de07-afe8-49b1-a5ad-35f3ac23d584",
+              "parentUUID": "8138aefb-b2bf-4cff-beb6-36c9c8a3a2df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create Impact Areas",
+              "fullTitle": "Impact Areas  Module Create Impact Areas",
+              "timedOut": null,
+              "duration": 77701,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "impactAreas_module.add_impactArea();",
+              "err": {},
+              "uuid": "6ead1c4e-fb14-4f64-be0c-c970cf1fe3c7",
+              "parentUUID": "8138aefb-b2bf-4cff-beb6-36c9c8a3a2df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit Impact Areas",
+              "fullTitle": "Impact Areas  Module Edit Impact Areas",
+              "timedOut": null,
+              "duration": 31431,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "impactAreas_module.search_impactArea();\nimpactAreas_module.edit_impactArea();\nimpactAreas_module.fill_editContactForm();",
+              "err": {},
+              "uuid": "0f71dc6a-13a7-4074-b5e0-a8674b4835e0",
+              "parentUUID": "8138aefb-b2bf-4cff-beb6-36c9c8a3a2df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete Impact Areas",
+              "fullTitle": "Impact Areas  Module Delete Impact Areas",
+              "timedOut": null,
+              "duration": 65540,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "impactAreas_module.search_impactArea();\nimpactAreas_module.select_searched();\nimpactAreas_module.delete_contact();\nimpactAreas_module.verify_delete();",
+              "err": {},
+              "uuid": "6abc3538-881d-4e53-9184-7ec2dc2ec3fb",
+              "parentUUID": "8138aefb-b2bf-4cff-beb6-36c9c8a3a2df",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dc05de07-afe8-49b1-a5ad-35f3ac23d584",
+            "6ead1c4e-fb14-4f64-be0c-c970cf1fe3c7",
+            "0f71dc6a-13a7-4074-b5e0-a8674b4835e0",
+            "6abc3538-881d-4e53-9184-7ec2dc2ec3fb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 206607,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

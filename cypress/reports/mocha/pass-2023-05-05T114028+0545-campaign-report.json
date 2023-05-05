@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-05T05:53:15.867Z",
+    "end": "2023-05-05T05:55:28.532Z",
+    "duration": 132665,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "504d7299-7257-47c1-8f84-e7578e488f14",
+      "title": "",
+      "fullFile": "cypress\\e2e\\campaign\\campaign.cy.js",
+      "file": "cypress\\e2e\\campaign\\campaign.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5596dd5d-f4b8-4d98-a6cb-08962dbe00c8",
+          "title": "Campaign  Module",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify if empty form cannot be submitted",
+              "fullTitle": "Campaign  Module verify if empty form cannot be submitted",
+              "timedOut": null,
+              "duration": 35136,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "campaign_module.submitEmpty_campaign();",
+              "err": {},
+              "uuid": "bf03b130-d97a-406c-b48b-424640e66179",
+              "parentUUID": "5596dd5d-f4b8-4d98-a6cb-08962dbe00c8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create Campaign",
+              "fullTitle": "Campaign  Module Create Campaign",
+              "timedOut": null,
+              "duration": 33753,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "campaign_module.add_campaign();",
+              "err": {},
+              "uuid": "12fda260-a3af-45f2-87bc-d17edb97af88",
+              "parentUUID": "5596dd5d-f4b8-4d98-a6cb-08962dbe00c8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit Campaign",
+              "fullTitle": "Campaign  Module Edit Campaign",
+              "timedOut": null,
+              "duration": 34616,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "campaign_module.search_campaign();\ncampaign_module.edit_campaign();\ncampaign_module.fill_editCampaignForm();",
+              "err": {},
+              "uuid": "87f915d8-5378-4df2-84f7-5fa06b69f893",
+              "parentUUID": "5596dd5d-f4b8-4d98-a6cb-08962dbe00c8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete Campaign",
+              "fullTitle": "Campaign  Module Delete Campaign",
+              "timedOut": null,
+              "duration": 25479,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "campaign_module.search_campaign();\ncampaign_module.select_searched();\ncampaign_module.delete_contact();\ncampaign_module.verify_delete();",
+              "err": {},
+              "uuid": "ae14ac5c-4ab5-4925-8532-52f976c7ab59",
+              "parentUUID": "5596dd5d-f4b8-4d98-a6cb-08962dbe00c8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bf03b130-d97a-406c-b48b-424640e66179",
+            "12fda260-a3af-45f2-87bc-d17edb97af88",
+            "87f915d8-5378-4df2-84f7-5fa06b69f893",
+            "ae14ac5c-4ab5-4925-8532-52f976c7ab59"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 128984,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "[status]-[datetime]-[name]-report",
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

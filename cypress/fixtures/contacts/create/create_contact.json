@@ -1,0 +1,23 @@
+{
+  "firstName": "Dudley",
+  "middleName": "Billie",
+  "lastName": "Lebsack",
+  "email": "Hermann.Kling@yahoo.com",
+  "emailSubStatus": "Opted In",
+  "phone": "+9779890070261",
+  "bYear": 1951,
+  "bMonth": 10,
+  "bDay": 27,
+  "addressLine1": "Dibbert Neck",
+  "addressLine2": "86981 Rowe Brooks",
+  "country": "Senegal",
+  "city": "543 Douglas Mews",
+  "provinceState": "Georgia",
+  "postalZip": "66098-7708",
+  "company": "Cure Centre",
+  "companyRole": "Organization",
+  "household": "Transport",
+  "asignee": "QA Parichyak",
+  "priority": "Low",
+  "tags": "Non Profit"
+}
