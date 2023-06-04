@@ -7,8 +7,8 @@ module.exports = {
       dev: {
         url: "https://dev.keela.co/",
         Cred: {
-          email: "qatest@getnada.com",
-          password: "qatest12345",
+          email: "",
+          password: "",
         },
       }
     },
